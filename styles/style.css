@@ -1,39 +1,40 @@
 .container {
     display: flex;
-    border: 2px solid black;
-    background-color: white;
+    background-color: white
+    width: 1080px;
 }
 
 .content {
-    border: 2px solid black;
     display: flex;
-    flex-direction: column;
-    font-size: x-large;  
-    padding: 0%;
+    flex-direction: column;  
+    border-right: 0px;
 }
 
 .content-2 {
     display: flex;
-    border: 2px solid black;
-    flex-direction: column;
-    padding-left: 14px;
-    padding-right: 14px;
-    font-weight:bolder;
-    font-size: 28px;
-}
-
-.content-2 strong{
-    background-color: rgba(251, 91, 254);
-}
-
+}                            
+                                                                  
 .texto-pequeño {
-    font-size: 7px;
+    font-size: 15px;
 }
 
-.image-1 {
-    border: 2px solid black;
+.image {
+    border-bottom: 17px;
+    width: 500px;
 }
 
-.image-2 {
-    border: 2px solid black;
+.division {
+    border: 10px solid black;
+}
+
+.imagen-medio {
+    width: 1020px;
+}
+
+.competitors {
+    width: 480px;
+}
+
+img {
+    border-radius: 10px;
 }
