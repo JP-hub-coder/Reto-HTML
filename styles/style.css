@@ -1,6 +1,9 @@
+body{
+    background-color: white;
+}
+
 .container {
     display: flex;
-    background-color: white
     width: 1080px;
 }
 
@@ -9,15 +12,7 @@
     flex-direction: column;  
     border-right: 0px;
 }
-
-.content-2 {
-    display: flex;
-}                            
-                                                                  
-.texto-pequeño {
-    font-size: 15px;
-}
-
+                            
 .image {
     border-bottom: 17px;
     width: 500px;
@@ -37,4 +32,16 @@
 
 img {
     border-radius: 10px;
+}
+
+.imagen-fondo {
+    height: 670px; 
+    width: 480px;
+}
+
+.container-grande {
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 36%;
+    width: 1040px;
 }
